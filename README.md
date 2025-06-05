@@ -1,23 +1,14 @@
-Transformer-MarianMT
+# Transformer-MarianMT
 --------------------
 
 This project fine-tunes a pre-trained MarianMT model for English to Vietnamese translation using Hugging Face Transformers.
 
-Requirements:
-- transformers
-- torch
-- sentencepiece
 
-Install dependencies:
-
-    pip install transformers torch sentencepiece
-
-Usage:
+# Usage:
 
 1. Download the script: NLP_T.py
 
-2. Prepare the training folder:
-   Create a folder named TRAIN_INFO and make sure it contains your training and validation files.
+2. Download TRAIN_INFO and make sure it contains training and validation files.
 
 3. Set the folder path inside the script:
    Example:
@@ -28,7 +19,7 @@ Usage:
 
        python NLP_T.py
 
-Notes:
+# Notes:
 - Ensure the TRAIN_INFO folder contains correctly formatted data.
 - The script uses MarianMTModel and Trainer from Hugging Face.
 
