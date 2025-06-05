@@ -1,0 +1,14 @@
+Frist install if not installed
+  pip install transformers torch
+  pip install sentencepiece
+
+download
+ NLP_T.py 
+TRAIN_INFO  Complete Folder 
+  
+
+define the path of Folder  
+ex:
+model_path = r"C:\Users\XOX\Downloads\NLP_T"
+
+THX KARMAN
